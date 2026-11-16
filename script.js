@@ -1,7 +1,7 @@
 // JSON response normaliser 09/07/2026 - roadmap.sh project
 
-// An API response often contains more data than your program needs. Normalize the response into a smaller list of published article summaries.
-
+// An API response often contains more data than your program needs. 
+// Normalize the response into a smaller list of published article summaries.
 
 const apiResponse = {
     data: [
@@ -36,7 +36,7 @@ const apiResponse = {
 function getPublishedArticles(response) {
     // return only articles where status is published
     return response.data.filter(data => data.status === 'published');  // returns entire article obj
-    //return response.data.filter(data => data.status === 'published').map(data => data.title); // returns just the article title
+    // return response.data.filter(data => data.status === 'published').map(data => data.title); // returns just the article title
 }; 
 
 
