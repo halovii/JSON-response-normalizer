@@ -9,7 +9,7 @@ This project includes 3 functions for returning responses:
 
 ### improvements
 This project could be improved by:
-- implementing a real api call, demonstraighting real-world fetch usage
+- implementing a real api call, demonstrating real-world fetch usage
 - additional return functions for varied cases, eg. getAuthors() or filterbyViews()
 
 ### notes
